@@ -1,10 +1,24 @@
-# Claude Cortex
+# Claude Multi-Agent System
 
 > The brain layer for Claude Code. 60 skills, 17 AI agents, full orchestration — the complete operating system for solo AI founders.
 
 ```
 60 skills | 17 agents | 40+ auto-detection triggers | 6 orchestration workflows
 ```
+
+---
+
+## Quick Start
+
+**One command. Done.**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/mahanth-byte/claude-multi-agent-system/main/install.sh | bash
+```
+
+Then open any project and run `claude` — all 17 agents and 60+ skills are immediately active.
+
+> **What it does:** backs up your existing `~/.claude/`, clones this repo into it, preserves your personal files, and makes the auto-detection hook executable.
 
 ---
 
@@ -26,7 +40,7 @@ curl -fsSL https://raw.githubusercontent.com/mahanth-byte/claude-multi-agent-sys
 
 This will:
 - Back up your existing `~/.claude/` (if any)
-- Clone Claude Cortex
+- Clone this repo into ~/.claude
 - Preserve your personal files (USER.md, MEMORY.md, memory/, projects/)
 - Create personal files from templates if missing
 - Make the auto-detection hook executable
@@ -108,7 +122,7 @@ That's it. Claude Code automatically reads `~/.claude/` on every session. All 60
 mkdir my-new-app && cd my-new-app
 git init
 claude
-# Claude Cortex is already loaded globally — just start building
+# Claude Multi-Agent System is already loaded globally — just start building
 ```
 
 ### Option B: With a Project CLAUDE.md (Recommended)
