@@ -1,0 +1,17 @@
+[2026-06-04T16:29:23.842Z] [supervisor] ─── daemon start ─── version=2.1.162 pid=5076 origin=transient
+[2026-06-04T16:29:23.855Z] [supervisor] auth: scheduling proactive refresh in 21666s
+[2026-06-04T16:29:23.855Z] [supervisor] auth: scheduling proactive refresh in 21666s
+[2026-06-04T16:29:23.860Z] [supervisor] workers=0
+[2026-06-04T16:29:23.891Z] [bg] bg spare spawned host pid=5084
+[2026-06-04T16:29:24.067Z] [bg] bg claimed-spare 3023b9d9 (spare)
+[2026-06-04T16:29:24.068Z] [bg] bg spawned 9182e954 (slash)
+[2026-06-04T16:29:24.070Z] [bg] bg spare spawned host pid=5093
+[2026-06-04T16:30:13.222Z] [bg] bg settled 3023b9d9 (killed)
+[2026-06-04T16:30:36.380Z] [bg] bg claimed-spare cadf110f (spare)
+[2026-06-04T16:30:36.381Z] [bg] bg spawned c86852f2 (slash)
+[2026-06-04T16:30:36.383Z] [bg] bg spare spawned host pid=5169
+[2026-06-04T16:36:23.909Z] [bg] bg settled c86852f2 (done)
+[2026-06-04T16:50:36.641Z] [bg] bg settled cadf110f (killed)
+[2026-06-04T18:59:18.918Z] [bg] bg settled 9182e954 (done)
+[2026-06-04T18:59:23.922Z] [supervisor] idle 5s with no clients — exiting
+[2026-06-04T18:59:23.922Z] [supervisor] shutting down
